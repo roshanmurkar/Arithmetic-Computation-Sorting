@@ -10,3 +10,8 @@ read -p "enter a 3rd value:- " c
 
 echo $a,$b,$c
 
+#uc2-computation
+
+result=$(($a+$b*$c))
+
+echo $result
