@@ -29,3 +29,10 @@ result=$(($c*$a/$b));
 echo $result
 
 
+
+#uc5-computation part 4
+
+result=$(($a%$b+$c));
+echo $result
+
+
