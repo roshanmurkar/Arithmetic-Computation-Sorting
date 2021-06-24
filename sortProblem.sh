@@ -15,3 +15,10 @@ echo $a,$b,$c
 result=$(($a+$b*$c))
 
 echo $result
+
+
+#uc3-computation part 2
+
+result=$(($a*$b+$c));
+echo $result
+
