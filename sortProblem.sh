@@ -42,6 +42,10 @@ result[resultUc3]=$resultUc3
 result[resultUc4]=$resultUc4
 result[resultUc5]=$resultUc5
 
-echo "result" ${result[@]}
+
+#uc7-read value from dict into array"
+
+echo "values of dictory " ${!result[@]}
+echo "values from dictory into array " ${result[@]}
 
 
