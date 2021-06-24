@@ -12,27 +12,36 @@ echo $a,$b,$c
 
 #uc2-computation
 
-result=$(($a+$b*$c))
+resultUc2=$(($a+$b*$c))
 
 echo $result
 
 
 #uc3-computation part 2
 
-result=$(($a*$b+$c));
+resultUc3=$(($a*$b+$c));
 echo $result
 
 
 #uc4-computation part 3
 
-result=$(($c*$a/$b));
+resultUc4=$(($c*$a/$b));
 echo $result
 
 
 
 #uc5-computation part 4
 
-result=$(($a%$b+$c));
+resultUc5=$(($a%$b+$c));
 echo $result
+
+#uc6-store in dictionary
+declare -A result
+result[resultUc2]=$resultUc2
+result[resultUc3]=$resultUc3
+result[resultUc4]=$resultUc4
+result[resultUc5]=$resultUc5
+
+echo "result" ${result[@]}
 
 
