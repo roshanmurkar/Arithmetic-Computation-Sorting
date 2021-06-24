@@ -22,3 +22,10 @@ echo $result
 result=$(($a*$b+$c));
 echo $result
 
+
+#uc4-computation part 3
+
+result=$(($c*$a/$b));
+echo $result
+
+
