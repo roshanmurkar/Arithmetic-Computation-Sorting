@@ -49,6 +49,11 @@ echo "values of dictory " ${!result[@]}
 echo "values from dictory into array " ${result[@]}
 
 
-#uc8-decending order
+#uc8-accending order
 
 arrAsc=($(for i in ${result[@]}; do echo $i;done | sort ))
+
+
+#uc9-decending order
+
+arrDsc=($(for i in ${result[@]}; do echo $i;done | sort -r ))
