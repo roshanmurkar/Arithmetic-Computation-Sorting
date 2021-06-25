@@ -12,4 +12,4 @@ case $flipCheck in
 		result=Tails
 		;;
 esac
-echo $result "is the winner"
+echo $result "is winner"
