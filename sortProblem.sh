@@ -37,10 +37,10 @@ echo $result
 
 #uc6-store in dictionary
 declare -A result
-result[resultUc2]=$resultUc2
-result[resultUc3]=$resultUc3
-result[resultUc4]=$resultUc4
-result[resultUc5]=$resultUc5
+result[1]=$resultUc2
+result[2]=$resultUc3
+result[3]=$resultUc4
+result[4]=$resultUc5
 
 
 #uc7-read value from dict into array"
@@ -49,3 +49,6 @@ echo "values of dictory " ${!result[@]}
 echo "values from dictory into array " ${result[@]}
 
 
+#uc8-decending order
+
+arrAsc=($(for i in ${result[@]}; do echo $i;done | sort ))
